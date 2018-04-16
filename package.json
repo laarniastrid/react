@@ -1,0 +1,32 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laarniastrid/react-tutorial.git"
+  },
+  "author": "Astrid Sutton",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-ng-annotate": "^2.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglifycss": "^1.0.9",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {},
+  "description": "https://reactjs.org/tutorial/tutorial.html",
+  "bugs": {
+    "url": "https://github.com/laarniastrid/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/laarniastrid/react-tutorial#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "9.11.1"
+  }
+}
