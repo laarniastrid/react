@@ -5,22 +5,12 @@ import ReactDOM from 'react-dom';
 // import styles
 import './index.css';
 
-// class Square extends React.Component {
 function Square(props) {
-	// constructor(props) {
-	// 	super(props);
-	// 	this.state = {
-	// 		value: null,
-	// 	};
-	// }
-
-	// render(i) {
-		return (
-			<button className="square" onClick={props.onClick} >
-				{props.value}
-			</button>
-		)
-	// }
+	return (
+		<button className="square" onClick={props.onClick} >
+			{props.value}
+		</button>
+	)
 }
 
 class Board extends React.Component {
