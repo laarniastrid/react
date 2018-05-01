@@ -1,5 +1,6 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# ---------- general ----------
 # dependencies
 /node_modules
 
@@ -19,3 +20,17 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ---------- reactjs-org ----------
+# dependencies
+/reactjs-org/node_modules
+
+# testing
+/reactjs-org/coverage
+
+# production
+/reactjs-org/build
+
+/reactjs-org/npm-debug.log*
+/reactjs-org/yarn-debug.log*
+/reactjs-org/yarn-error.log*
