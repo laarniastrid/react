@@ -31,6 +31,13 @@ yarn-error.log*
 # production
 /reactjs-org/build
 
+# misc
+/reactjs-org/.DS_Store
+/reactjs-org/.env.local
+/reactjs-org/.env.development.local
+/reactjs-org/.env.test.local
+/reactjs-org/.env.production.local
+
 /reactjs-org/npm-debug.log*
 /reactjs-org/yarn-debug.log*
 /reactjs-org/yarn-error.log*
